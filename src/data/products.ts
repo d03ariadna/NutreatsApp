@@ -8,7 +8,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'orange_h6m8ew.png',
+            img: 'orange_h6m8ew',
         },
         {
             name: 'Apple',
@@ -18,7 +18,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'apple_kh5qcw.png',
+            img: 'apple_kh5qcw',
         },
         {
             name: 'Banana',
@@ -28,7 +28,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'banana_zlumxw.png',
+            img: 'banana_zlumxw',
         },
         {
             name: 'Kiwi',
@@ -38,7 +38,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'kiwi_i6qpsb.png',
+            img: 'kiwi_i6qpsb',
         },
         {
             name: 'Lemon',
@@ -48,7 +48,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'lemon_b6vfpb.png',
+            img: 'lemon_b6vfpb',
         },
         {
             name: 'Mango',
@@ -58,7 +58,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'mango_yxfnrr.png',
+            img: 'mango_yxfnrr',
         },
         {
             name: 'Pear',
@@ -68,7 +68,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'pear_wxrell.png',
+            img: 'pear_wxrell',
         },
         {
             name: 'Pineapple',
@@ -78,7 +78,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'pineapple_davyml.png',
+            img: 'pineapple_davyml',
         },
         {
             name: 'Strawberry',
@@ -88,7 +88,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'strawberries_faop1s.png',
+            img: 'strawberries_faop1s',
         },
         {
             name: 'Watermelon',
@@ -98,7 +98,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'watermelon_ykva67.png',
+            img: 'watermelon_ykva67',
         },
     ],
     'vegetables': [
@@ -110,7 +110,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'carrot_pl9abm.png',
+            img: 'carrot_pl9abm',
         },
         {
             name: 'Cucumber',
@@ -120,7 +120,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'cucumber_wgo5pr.png',
+            img: 'cucumber_wgo5pr',
         },
         {
             name: 'Garlic',
@@ -130,7 +130,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'garlic_dtwnmc.png',
+            img: 'garlic_dtwnmc',
         },
         {
             name: 'Ginger',
@@ -140,7 +140,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'ginger_ggnf1y.png',
+            img: 'ginger_ggnf1y',
         },
         {
             name: 'Onion',
@@ -150,7 +150,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'onion_guvk5j.png',
+            img: 'onion_guvk5j',
         },
         {
             name: 'Potato',
@@ -160,7 +160,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'potato_stk6om.png',
+            img: 'potato_stk6om',
         },
         {
             name: 'Tomato',
@@ -170,7 +170,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'tomatos_vsvd90.png',
+            img: 'tomatos_vsvd90',
         },
         {
             name: 'Zucchini',
@@ -180,7 +180,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'zucchini_zzijff.png',
+            img: 'zucchini_zzijff',
         },
     ],
     'nuts': [
@@ -192,7 +192,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'almond_z5qigt.png',
+            img: 'almond_z5qigt',
         },
         {
             name: 'Cashew',
@@ -202,7 +202,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'cashew_orzw0y.png',
+            img: 'cashew_orzw0y',
         },
         {
             name: 'Hazelnut',
@@ -212,7 +212,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'hazelnut_jytmbx.png',
+            img: 'hazelnut_jytmbx',
         },
         {
             name: 'Peanut',
@@ -222,7 +222,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'peanut_thonwg.png',
+            img: 'peanut_thonwg',
         },
         {
             name: 'Pistachio',
@@ -232,7 +232,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'pistachio_it9sdx.png',
+            img: 'pistachio_it9sdx',
         },
         {
             name: 'Walnut',
@@ -242,7 +242,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'walnut_dezrg0.png',
+            img: 'walnut_dezrg0',
         },
     ],
     'meat': [
@@ -254,7 +254,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'beef_junxuq.png',
+            img: 'beef_junxuq',
         },
         {
             name: 'Chicken',
@@ -264,7 +264,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'chicken.png',
+            img: 'chicken',
         },
         {
             name: 'Duck',
@@ -274,7 +274,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'duck_fgxxbs.png',
+            img: 'duck_fgxxbs',
         },
         {
             name: 'Lamb',
@@ -284,7 +284,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'lamb.png',
+            img: 'lamb',
         },
         {
             name: 'Pork',
@@ -294,7 +294,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'pork_yx1ir1.png',
+            img: 'pork_yx1ir1',
         },
         {
             name: 'Turkey',
@@ -304,7 +304,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'turkey_ihnn7z.png',
+            img: 'turkey_ihnn7z',
         },
         {
             name: 'T-bone',
@@ -314,7 +314,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 't-bone_uensnm.png',
+            img: 't-bone_uensnm',
         },
     ],
     'fish': [
@@ -326,7 +326,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'anchovy_srh7mg.png',
+            img: 'anchovy_srh7mg',
         },
         {
             name: 'Cod',
@@ -336,7 +336,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'cod_i4e8qy.png',
+            img: 'cod_i4e8qy',
         },
         {
             name: 'Haddock',
@@ -346,7 +346,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'haddock_egbvei.png',
+            img: 'haddock_egbvei',
         },
         {
             name: 'Salmon',
@@ -356,7 +356,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'salmon_gc9fna.png',
+            img: 'salmon_gc9fna',
         },
         {
             name: 'Sardine',
@@ -366,7 +366,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'sardine_ntp8qw.png',
+            img: 'sardine_ntp8qw',
         },
         {
             name: 'Tuna',
@@ -376,7 +376,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'tuna_lypqxj.png',
+            img: 'tuna_lypqxj',
         },
     ],
     'dairy': [
@@ -388,7 +388,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'butter_d5d66d.png',
+            img: 'butter_d5d66d',
         },
         {
             name: 'Cheese',
@@ -398,7 +398,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'cheese.png',
+            img: 'cheese',
         },
         {
             name: 'Cream',
@@ -408,7 +408,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'cream_ynhqmr.png',
+            img: 'cream_ynhqmr',
         },
         {
             name: 'Milk',
@@ -418,7 +418,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'milk_avttzu.png',
+            img: 'milk_avttzu',
         },
         {
             name: 'Yogurt',
@@ -428,7 +428,7 @@ export const products = {
                 'gr': 0.5,
                 'oz': 0.3,
             },
-            img: 'yogurt_escy06.png',
+            img: 'yogurt_escy06',
         },
     ],
 }

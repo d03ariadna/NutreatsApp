@@ -1,3 +1,5 @@
+import { ProductCardProps } from ".";
+
 export interface User {
     id: string;
     name: string;
@@ -8,11 +10,11 @@ export interface User {
     phone?: string | null;
 }
 
+
 export interface CartItem {
     id: string;
-    product: string;
+    product: ProductCardProps;
     quantity: number;
-    measure: 'lb' | 'kg' | 'gr' | 'oz';
     price: number;
 }
 

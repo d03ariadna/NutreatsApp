@@ -1,5 +1,5 @@
 import React from 'react';
-import {useCloudinaryUrl} from '../../utils';
+import {useCloudinaryUrl} from '../../../utils';
 
 interface CloudinaryImageProps {
     name: string;

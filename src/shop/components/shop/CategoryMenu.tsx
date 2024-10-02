@@ -1,12 +1,9 @@
 import { Beef, Carrot, Citrus, Fish, Milk, Nut } from 'lucide-react'
 import React from 'react'
+import { CategoryMenuProps } from '../../../types'
 
-interface Props {
-    activeProduct: "fruits" | "vegetables" | "nuts" | "meat" | "fish" | "dairy",
-    setActiveProduct: React.Dispatch<React.SetStateAction<"fruits" | "vegetables" | "nuts" | "meat" | "fish" | "dairy">>
-}
 
-export const CategoryMenu: React.FC<Props> = ({activeProduct, setActiveProduct}) => {
+export const CategoryMenu: React.FC<CategoryMenuProps> = ({activeProduct, setActiveProduct}) => {
     return (
         
         <div className='flex justify-between items-center my-10 px-48'>

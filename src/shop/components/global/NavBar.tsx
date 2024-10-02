@@ -2,11 +2,13 @@ import React, { useEffect, useState } from 'react'
 import { Logo } from './Logo'
 import { ChevronDown, ChevronRight, LogOut, Menu } from 'lucide-react'
 import { Link, useNavigate } from 'react-router-dom';
-import { useAuthStore } from '../../hooks';
+import { useAuthStore } from '../../../hooks';
+import { useCartStore } from '../../../hooks/useCartStore';
 
 export const NavBar = () => {
 
     const { startLogout } = useAuthStore();
+    const { items } = useCartStore();
     const navigate = useNavigate();
 
     const [menuOpen, setMenuOpen] = useState(false);
@@ -42,9 +44,9 @@ export const NavBar = () => {
 
     return (
         <nav className='bg-gray-50 px-14 py-3 flex justify-between items-center relative z-50'>
-            <Link to='/' className='flex items-center gap-2'>
-                <Logo className='w-10 h-10' fill='#44B21E'/>
-                <p className='font-semibold text-xl text-primary'>Nutreats</p>
+            <Link to='/' className='flex items-center gap-3'>
+                <Logo className='w-12 h-12' fill='#44B21E'/>
+                <p className='font-semibold text-2xl text-primary'>Nutreats</p>
             </Link>
             <button className='md:hidden' onClick={() => setMenuOpen(!menuOpen)}>
                 <Menu size={25} strokeWidth={1.3} />
@@ -52,7 +54,7 @@ export const NavBar = () => {
 
             {/* MENU */}
             <div className={`${ menuOpen ? 'block' : 'hidden' } w-56 h-screen absolute right-0 top-14 bg-gray-50 p-5 pr-12 md:p-3 md:block md:relative md:h-auto md:top-0 md:w-auto`}>
-                <ul className='flex flex-col gap-6 md:gap-8 md:items-center md:flex-row text-xs font-light'>
+                <ul className='flex flex-col gap-6 md:gap-10 md:items-center md:flex-row text-sm font-light'>
                     <Link to='/about' className='cursor-pointer'>About</Link>
                     <Link to='/shop' className='cursor-pointer'>Shop</Link>
                     <li className='relative cursor-pointer'>
@@ -83,7 +85,7 @@ export const NavBar = () => {
                             </div>
                         </section>
                     </li>
-                    <Link to='/cart' className='green-btn'>Basket ( 1 )</Link>
+                    <Link to='/cart' className='green-btn'>Basket ( {items.length} )</Link>
                 </ul>
             </div>
         </nav>

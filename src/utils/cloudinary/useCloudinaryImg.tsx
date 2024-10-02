@@ -16,7 +16,7 @@ export const useCloudinaryUrl = (
 ): string => {
   return useMemo(() => {
 
-    return `https://res.cloudinary.com/${config.cloudName}/image/upload/v1723047835/${img}`;
+    return `https://res.cloudinary.com/${config.cloudName}/image/upload/v1723047835/${img}.png`;
   
   }, [img, width, height, config.cloudName]);
 };

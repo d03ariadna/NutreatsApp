@@ -1,24 +1,14 @@
 import { ChevronDown } from 'lucide-react'
-import { CloudinaryImage } from '.';
-import { DropDownBtn } from './';
+import { CloudinaryImage } from '..';
+import { DropDownBtn } from '..';
 import { useEffect, useState } from 'react';
-import { CartItem } from '../../types';
+import { CartItem, ProductCardProps } from '../../../types';
+import { useCartStore } from '../../../hooks/useCartStore';
 
-type Prices ={
-  lb: number,
-  kg: number,
-  gr: number,
-  oz: number
-}
-
-interface ProductCardProps {
-    measure: 'lb' | 'kg' | 'gr' | 'oz';
-    name: string;
-    prices: Prices;
-    img: string;
-}
 
 export const ProductCard: React.FC<ProductCardProps> = ({ measure, name, prices, img }) => {
+
+    const { startAddingProductToCart } = useCartStore();
 
     // const [price, setPrice] = useState(prices[measure]);
 
@@ -40,13 +30,19 @@ export const ProductCard: React.FC<ProductCardProps> = ({ measure, name, prices,
 
         const productToAdd = {
             id: img,
-            product: name,
+            product: {
+                name: name,
+                measure: measure,
+                prices: prices,
+                img: img,
+            },
             quantity: quantityFixed,
-            measure: measure,
-            price: prices[measure]
+            price: Number(finalPrice),
         } as CartItem;
 
+
         console.log(productToAdd);
+        startAddingProductToCart(productToAdd);
     }
 
     const handleQuantity = (e: React.ChangeEvent<HTMLInputElement>) => {

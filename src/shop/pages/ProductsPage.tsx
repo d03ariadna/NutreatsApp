@@ -2,22 +2,9 @@ import { Citrus , Carrot, Nut, Beef, Fish, Milk, ChevronDown } from 'lucide-reac
 import { DropDownBtn, ProductCard } from '../components'
 import { products } from '../../data/products'
 import { useEffect, useState } from 'react'
-import { CategoryMenu } from '../components/CategoryMenu';
+import { CategoryMenu } from '../components/shop/CategoryMenu';
+import { Measure, Product, ProductCardProps, ProductCategory } from '../../types';
 
-type Prices ={
-  lb: number,
-  kg: number,
-  gr: number,
-  oz: number
-}
-type ProductCategory = keyof typeof products;
-type Product = {
-  name: string,
-  prices: Prices,
-  img: string
-}
-
-type Measure = 'lb' | 'kg' | 'gr' | 'oz';
 
 export const ProductsPage = () => {
 
